@@ -1,12 +1,11 @@
 .menu__list__item{
-    margin-left: 3rem;
-    padding: 0.25rem;
+    margin-left: 2rem;
     transition: 5ms;
     color: var(--color-de-texto);
 }
 
 .menu__list__item--contacto{
-    margin-left: 3rem;
+    margin-left: 2rem;
     font-weight: bold;
     padding: 0.25rem;
     border: solid black 3px;
