@@ -1,0 +1,10 @@
+/*Sección Menu*/
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 7rem 0 7rem;
+    align-items: center;
+    justify-content: space-between;
+
+}

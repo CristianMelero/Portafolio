@@ -1,0 +1,4 @@
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,4 @@
+.title__network__item > a{
+    margin-right: 3rem;
+    color: var(--color-de-texto);
+}

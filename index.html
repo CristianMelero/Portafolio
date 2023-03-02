@@ -4,49 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     
+    <!-- --ACA VAN TODOS MIS CSS-- -->
+    <!-- BASES -->
+    <link rel="stylesheet" href="assets/css/bases.css">
+
+    <!-- MENU -->
+    <link rel="stylesheet" href="assets/css/Menu/menu.css">
+    <link rel="stylesheet" href="assets/css/Menu/menu-header.css">
+    <link rel="stylesheet" href="assets/css/Menu/menu-title.css">
+    <link rel="stylesheet" href="assets/css/Menu/menu-list.css">
+    <link rel="stylesheet" href="assets/css/Menu/menu-list-item.css">
+    
+    <!-- TITLE -->
+    <link rel="stylesheet" href="assets/css/title.css">
+    <link rel="stylesheet" href="assets/css/Title/title-div.css">
+    <link rel="stylesheet" href="assets/css/Title/title-profile.css">
+    <link rel="stylesheet" href="assets/css/Title/title-bio.css">
+    <link rel="stylesheet" href="assets/css/Title/title-container.css">
+    <link rel="stylesheet" href="assets/css/Title/title-subsection.css">
+    <link rel="stylesheet" href="assets/css/Title/title-network.css">
+    <link rel="stylesheet" href="assets/css/Title/title-network-item.css">
+
+
 
     <title> Mi Portafolio</title>
 </head>
 <body>
     <!-- Sección del Menú  -->
-    <div class="tudo">
+    <div class="todo">
     <section class="menu">
         <header class="menu__header">
-            <img src="assets\vector.png">
-            <h3 class="menu__title">Fulana de Tal</h3>
+            <img src="assets\img\vector.png">
+            <h3 class="menu__title">Cristian Melero</h3>
         </header>
         <nav>
             <ul class="menu__list">
-                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="#sobre-mi">Sobre mí</a></li>
                 <li class="menu__list__item"><a href="#skills">Skills</a></li>
                 <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
                 <li class="menu__list__item"><a href="#formacion">Formación</a></li>
                 <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item"><a href="#contacto">Contacto@fulana.com</a></li>
+                <li class="menu__list__item--contacto"><a href="#contacto">Contacto</a></li>
             </ul>
-            <li class="menu__list__item__contato"><a href="#contacto">contacto@fulana.com</a></li>
         </nav>
     </section>
 
     <!-- Sección del Header/Title/Hero -->
     <section class="title">
         <div class="title__div">
-            <img class="title__profile" src="assets\profile.png">
+            <img class="title__profile" src="assets\img\profile.png" alt="Foto de Cristian Melero">
             <div class="title__container">
-                <h2 class="title__bio">Hola, mi nombre es Fulana de Tal y construyo paginas web</h2>
-                <h3 class="title__subsection">Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <h2 class="title__bio">Hola, mi nombre es Cristian Melero y construyo paginas web</h2>
+                <h3 class="title__subsection">Me formé en Codo A Codo de la Agencia de Aprendizaje a lo Largo de La Vida en Full Stack Python y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Github <img src="assets\img\arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="">Linkedin <img src="assets\img\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Instagram <img src="assets\img\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Currículo <img src="assets\img\arrow.png"></a></li>
                 </ul>
             </div>
         </div>
@@ -59,7 +79,7 @@
             <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.  </p>
             <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
             <!-- Si quieres, pon tú firma acá! -->
-            <img src="assets\signature.png">
+            <img src="assets\img\signature.png">
         </div>
     </section>
 
@@ -69,42 +89,42 @@
             <div class="skills__line">
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img src="assets\htlm.png"></li>
+                        <li class="skills__img"><img src="assets\img\htlm.png"></li>
                         <li class="skills__name"> HTML 5</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+                        <li class="skills__img"> <img src="assets\img\js_icon.png" alt=""></li>
                         <li class="skills__name">Javascript</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
+                        <li class="skills__img"> <img src="assets\img\php_icon.png" alt=""></li>
                         <li class="skills__name">PHP</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
+                        <li class="skills__img"><img src="assets\img\nodejs_icon.png" alt=""></li>
                         <li class="skills__name">Node JS</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
+                        <li class="skills__img"> <img src="assets\img\react_icon.png" alt=""> </li>
                         <li class="skills__name">React</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
+                        <li class="skills__img"> <img src="assets\img\css_icon.png" alt=""> </li>
                         <li class="skills__name">CSS</li>
                     </ul>
                 </div>

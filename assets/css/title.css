@@ -1,0 +1,7 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    padding: 5rem 7rem 0 7rem;
+    justify-content: space-between;
+
+}

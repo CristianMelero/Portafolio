@@ -1,0 +1,21 @@
+.menu__list__item{
+    margin-left: 3rem;
+    padding: 0.25rem;
+    transition: 5ms;
+    color: var(--color-de-texto);
+}
+
+.menu__list__item--contacto{
+    margin-left: 3rem;
+    font-weight: bold;
+    padding: 0.25rem;
+    border: solid black 3px;
+    border-radius: 10px;
+    color: var(--color-de-texto);
+}
+
+.menu__list__item:hover, .menu__list__item--contacto:hover{
+    transform: scale(1.2);
+    cursor: pointer; 
+
+}
