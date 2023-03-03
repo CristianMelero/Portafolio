@@ -1,6 +1,7 @@
 .title__subsection{
     color: var(--color-de-texto);
-    font-weight: 300;
-    line-height: 1.5rem;
+    font-weight: 100;
+    line-height: 2rem;
     padding-top: 1.5rem;
+    font-size: 1.5rem;
 }

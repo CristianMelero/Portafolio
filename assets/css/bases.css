@@ -1,13 +1,15 @@
 :root{
-   --color-de-fundo: #F5F5F5;
+   --color-de-fondo1: #F5F5F5;
+   --color-de-fondo2: #EAF2FD;
    --color-de-link: #000;
    --color-de-texto: #464646;
+
  
 }
 
 body {
     box-sizing: border-box;
-    background-color: var(--color-de-fundo) ;
+    background-color: var(--color-de-fondo1) ;
     font-family: 'Raleway';
     margin: 0;
     padding: 0;

@@ -1,6 +1,7 @@
 .title__bio{
     color: var(--color-de-texto);
-    font-size: 3.25rem;
-    line-height: 3.5rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 3.8rem;
     margin: 0;
 }
