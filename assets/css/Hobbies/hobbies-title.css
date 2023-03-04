@@ -1,0 +1,7 @@
+.hobbies__title{
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: var(--color-de-texto);
+    padding-bottom: 2rem;
+    text-align: center;
+}
