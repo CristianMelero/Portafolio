@@ -1,7 +1,7 @@
 .menu{
     display: flex;
     flex-direction: row;
-    padding: 1.5rem 9.5625rem;
+    padding: 1.5rem 9.5625rem 1rem;
     align-items: center;
     justify-content: space-between;
 

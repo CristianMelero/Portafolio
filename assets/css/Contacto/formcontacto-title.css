@@ -1,7 +1,6 @@
-.about__title{
+.formcontacto__title{
     font-size: 1.75rem;
     font-weight: 900;
     color: var(--color-de-texto);
-    padding: 2rem 0 1.2rem;
-    
+    padding-bottom: 1rem;
 }

@@ -1,0 +1,13 @@
+.experience__text{
+    font-size: 1rem;
+    font-weight: 100;
+    color: var(--color-de-texto);
+    margin-bottom: 0.5rem;
+
+}
+
+.experience__box:nth-child(odd) .experience__text{
+    padding-left: 2rem;
+    
+}
+

@@ -1,0 +1,13 @@
+.experience__box{
+    display: flex;
+    align-items: center;
+    padding-bottom: 4rem;
+
+}
+
+.experience__box:nth-child(even){
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    justify-content: space-between;
+
+}

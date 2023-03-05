@@ -1,0 +1,18 @@
+.formcontacto__input{
+    display: block;
+    width: 100%;
+    margin: 0 0 2rem;
+    height: 3rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 100;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    color: var(--color-de-texto);
+
+}
+
+.formcontacto__input:focus{
+    outline: none;
+    border-bottom: 2px solid blue;
+}

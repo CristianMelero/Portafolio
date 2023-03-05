@@ -1,0 +1,13 @@
+.experience__title{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--color-de-texto);
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.experience__box:nth-child(odd) .experience__title{
+    padding-left: 2rem;
+    
+}
