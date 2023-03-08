@@ -1,10 +1,9 @@
 .formcontacto__boton{
+    display: block;
     border: 1px solid #2A7AE4;
     padding: 1rem;
     color: #ffffff;
     background-color: #2A7AE4;
     margin-right: 1rem;
-    font-weight: 500;
-    display: block;
-    align-self: flex-end;
+    font-weight: 600;
 }

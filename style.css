@@ -206,10 +206,47 @@
     }
 
     /*Contacto*/
-    
+    .formcontacto{
+        padding: 1rem 2rem;
+    }
+
+    .formcontacto__contacto{
+        display: flex;
+    }
+
+    .formcontacto--izquierda{
+        display: none;
+    }
+
+    .formcontacto__text{
+        padding-left: 0;
+        padding-bottom: 2rem;
+        width: 100%;
+    }
+
+    .formcontacto__title{
+        font-size: 1.25rem;
+        padding-top: 2rem;
+    }
+
+    .formcontacto__subtext{
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+    .formcontacto__input{
+        width: calc(100% - 1rem);
+    }
+
+    .formcontacto__textarea{
+        width: calc(100% - 1rem);
+    }
+
 
     /*Footer*/
-
+    .footer{
+        padding: 1.5rem 2rem;
+    }
 }
 
 /*Mobile*/
@@ -303,11 +340,6 @@
         padding: 1rem;
     }
 
-    .skills__title{
-        font-size: 1.25rem;
-        padding-bottom: 1rem;
-    }
-
     .skills__box{
         width: calc(50% - 1rem);
     }
@@ -318,8 +350,6 @@
     }
 
     .hobbies__title{
-        font-size: 1.25rem;
-        padding-bottom: 1rem;
         padding-top: 0;
     }
 
@@ -337,42 +367,20 @@
         padding: 1rem;
     }
 
-    .academic__title{
-        padding: 2rem;
-    }
-
-    .academic__courses{
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .academic__courses__box{
-        width: calc(100% - 2rem);
-        margin-bottom: 1rem;
-    }
-
-    .academic__courses__item__img{
-        height: 118px;
-    
-    }
-    
-    .academic__courses__item__title{
-        font-size: 1rem;
-        margin: 0.5rem 0;
-    }
-
-    .academic__courses__item__subtitle{
-        font-size: 0.75rem;
-        margin: 0.5rem 0;
-    }
-
 
     /*Experiencia Profesional*/
-    
+    .experience{
+        padding: 1rem;
+    }
 
+    
     /*Contacto*/
+    .formcontacto{
+        padding: 1rem;
+    }
 
     /*Footer*/
-
+    .footer{
+        padding: 1rem;
+    }
 }

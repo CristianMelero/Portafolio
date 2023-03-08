@@ -1,6 +1,6 @@
 .formcontacto__input{
     display: block;
-    width: 100%;
+    width: calc(100% - 2rem);
     margin: 0 0 2rem;
     height: 3rem;
     padding-left: 1rem;
