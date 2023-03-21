@@ -1,0 +1,60 @@
+.formcontacto__container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.input-label {
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    color: var(--color-de-texto);
+    font-size: 1rem;
+  
+    transition: all 0.25s;
+}
+
+.formcontacto__input:not(:placeholder-shown) + .input-label,
+.formcontacto__input:focus + .input-label {
+  font-size: 0.8rem;
+  top: 0.5rem;
+  color: blue;
+
+  transition: all 0.25s;
+  
+}
+
+.formcontacto__textarea:not(:placeholder-shown) + .input-label,
+.formcontacto__textarea:focus + .input-label {
+    font-size: 0.8rem;
+    top: 0.5rem;
+    color: blue;
+  
+    transition: all 0.25s;
+  
+}
+
+
+.input-message-error {
+  display: none;
+}
+
+.input-container--invalid .input-message-error {
+  color: red;
+  display: block;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  padding-left: 0.5rem;
+}
+
+.input-container--invalid .formcontacto__input:not(:placeholder-shown) + .input-label,
+.input-container--invalid .formcontacto__input:focus + .input-label {
+    color: red;
+}
+
+.input-container--invalid .formcontacto__textarea:not(:placeholder-shown) + .input-label,
+.input-container--invalid .formcontacto__textarea:focus + .input-label {
+    color: red;
+}

@@ -1,8 +1,7 @@
 .formcontacto__textarea{
     display: block;
-    width: 100%;
-    margin: 0 0 2rem;
-    padding: 1rem 0 1rem 1rem;
+    margin: 0 1rem 2rem 0;
+    padding: 2rem 0 1rem 1rem;
     border: none;
     border-bottom: 2px solid lightgrey;
     resize: none;
@@ -11,6 +10,7 @@
     font-family: 'Raleway';
     font-size: 1rem;
 }
+
 .formcontacto__textarea::placeholder{
     font-size: 1rem;
     font-weight: 100;
@@ -22,3 +22,7 @@
     border-bottom: 2px solid blue;
 }
 
+.formcontacto__textarea::placeholder{
+    visibility: hidden;
+    color: #00000000;
+}
